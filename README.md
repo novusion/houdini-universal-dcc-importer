@@ -1,3 +1,74 @@
-# houdini-universal-dcc-importer
-Universal DCC Importer for Houdini – MAX • Maya • LightWave • Other DCC/CAD apps → Houdini → Unreal Engine (via Houdini Engine)
+# Houdini Universal DCC Importer
 
+**Universal DCC Importer for Houdini – MAX • Maya • LightWave • Other DCC/CAD apps → Houdini → Unreal Engine (via Houdini Engine)**
+
+---
+
+## 🚀 About
+**Houdini Universal DCC Importer** is a tool for fast and reliable import of 3D data from various DCC and CAD applications directly into Houdini.  
+It supports formats such as **3ds Max**, **Maya**, **LightWave**, and many more, with options for automatic cleanup, attribute adjustments, and asset preparation for **Unreal Engine** via the **Houdini Engine plugin**.
+
+---
+
+## ✨ Features
+- **Multi-format import** – MAX, MA/MB, LWO, FBX, Alembic, USD, OBJ, and more
+- **Automatic cleanup & housekeeping**
+  - Remove unused attributes
+  - Standardize object names (`name`) and store source file path (`srcfile`)
+  - Option to keep or regenerate normals
+- **Packed prims** for efficient handling of large scenes
+- **Unreal Engine Ready** – run directly inside UE5 via Houdini Engine
+- **Locked HDA** – protected code, easy distribution
+
+---
+
+## 📅 Planned Formats & Features
+**Planned new formats:**
+- Cinema 4D (.c4d)
+- Blender (.blend)
+- Modo (.lxo)
+- SketchUp (.skp)
+- Rhino (.3dm)
+- STEP / IGES / SolidWorks
+- glTF/GLB, PLY, STL, ZBrush (.ztl)
+
+**Planned features:**
+- Batch import
+- Per-format import presets
+- Automatic LOD generation
+- Material conversion to PBR (MaterialX / UE5)
+- CLI support
+- Live Link Houdini ↔ UE5
+
+---
+
+## 🎯 Use Cases
+- **Game studios** – receive and prepare assets from external teams for the engine
+- **Visualization studios** – import client data without complex setup
+- **Freelance 3D artists** – speed up workflow and unify results
+- **Technical pipelines** – centralized import hub for multiple formats
+
+---
+
+## 🛠 Requirements
+- Houdini 20.0+
+- (for UE integration) Unreal Engine 5.x + Houdini Engine plugin
+
+---
+
+## 📜 License & Disclaimer
+This tool is not affiliated with or endorsed by Autodesk, NewTek, or any other software vendor.  
+The user is responsible for ensuring they have the necessary rights or licenses for any data processed with this tool.  
+The author is not liable for any license violations or infringement of third-party rights.
+
+---
+
+## 📥 Download & Installation
+1. Download the `.hda` file from [Releases](../../releases)
+2. In Houdini: **File → Import → Install Digital Asset Library**
+3. Add `UniversalDCCImporter` to the network, select a file, and click **Import**
+4. (Optional) Run directly inside UE5 via Houdini Engine
+
+---
+
+⭐ If you find this tool useful, give the repository a **Star** and support its development!
