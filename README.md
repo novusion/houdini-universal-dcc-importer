@@ -10,6 +10,14 @@ It supports formats such as **3ds Max**, **Maya**, **LightWave**, and many more,
 
 ---
 
+## 🖼 Example Import
+Below is an example of importing a `.max` file using the Houdini Universal DCC Importer.  
+The tool automatically processes geometry, renames primitives, and updates material assignments.
+
+![Example Import](docs/images/import-example.jpg)
+
+---
+
 ## ✨ Features
 - **Multi-format import** – MAX, MA/MB, LWO, FBX, Alembic, USD, OBJ, and more
 - **Automatic cleanup & housekeeping**
