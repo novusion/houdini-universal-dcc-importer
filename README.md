@@ -2,6 +2,7 @@
 
 **Universal DCC Importer for Houdini – MAX • Maya • LightWave • Other DCC/CAD apps → Houdini → Unreal Engine (via Houdini Engine)**
 
+*Work in Progress (Alpha release)*  
 ---
 
 ## 🚀 About
@@ -11,15 +12,17 @@ It supports formats such as **3ds Max**, **Maya**, **LightWave**, and many more,
 ---
 
 ## 🖼 Example Import
-Below is an example of importing a `.max` file using the Houdini Universal DCC Importer.  
-The tool automatically processes geometry, renames primitives, and updates material assignments.
+Example of importing a `.max` file with the Houdini Universal DCC Importer:  
+- Geometry is processed  
+- Primitives are renamed  
+- Material zones prepared for later conversion  
 
 ![Example Import](docs/images/import-example.jpg)
 
 ---
 
 ## ✨ Features
-- **Multi-format import** – MAX, MA/MB, LWO, FBX, Alembic, USD, OBJ, and more
+- **Multi-format import** – MAX, MA/MB, C4D, Blender, and more
 - **Automatic cleanup & housekeeping**
   - Remove unused attributes
   - Standardize object names (`name`) and store source file path (`srcfile`)
@@ -29,6 +32,10 @@ The tool automatically processes geometry, renames primitives, and updates mater
 - **Locked HDA** – protected code, easy distribution
 
 ---
+## 📅 Roadmap
+**Planned new formats**  
+C4D (.c4d) • Blender (.blend) • Modo (.lxo) • SketchUp (.skp) • Rhino (.3dm)  
+STEP / IGES / SolidWorks • ZBrush (.ztl)
 
 ## 📅 Planned Formats & Features
 **Planned new formats:**
@@ -76,6 +83,11 @@ The author is not liable for any license violations or infringement of third-par
 2. In Houdini: **File → Import → Install Digital Asset Library**
 3. Add `UniversalDCCImporter` to the network, select a file, and click **Import**
 4. (Optional) Run directly inside UE5 via Houdini Engine
+
+---
+
+## 📓 Changelog
+See [Changelist_EN.md](./Changelist_EN.md) for detailed development history.  
 
 ---
 
