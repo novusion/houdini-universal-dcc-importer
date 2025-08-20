@@ -72,9 +72,13 @@ STEP / IGES / SolidWorks • ZBrush (.ztl)
 ---
 
 ## 📜 License & Disclaimer
-This tool is not affiliated with or endorsed by Autodesk, NewTek, or any other software vendor.  
+This tool is not affiliated with or endorsed by Autodesk, NewTek, Maxon, McNeel, or any other software vendor.  
+It does **not** include or distribute any proprietary SDKs, APIs, or libraries from third parties.  
+All import functionality is implemented with independent, clean-room methods based only on user-owned files.  
+
 The user is responsible for ensuring they have the necessary rights or licenses for any data processed with this tool.  
 The author is not liable for any license violations or infringement of third-party rights.
+
 
 ---
 
